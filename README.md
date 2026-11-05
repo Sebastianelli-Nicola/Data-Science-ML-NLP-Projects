@@ -44,8 +44,8 @@ Analysis of a clinical and behavioral dataset (**2,000 patients, 21 attributes**
 * **Unsupervised Clustering & Manifold Learning:**
   * Standardized 18 numerical/boolean features; analyzed cumulative explained variance via **PCA** (requiring 10 components for 70% variance and 14 for 90% variance) and projected local neighborhood structures into 2D using **t-SNE** (`perplexity=30`).
   * **K-Means ($K=7$ selected via SSE Elbow Method):** Identified 7 distinct clinical profiles (e.g., low-risk young non-smokers in Clusters 0–1; heavy smokers/drinkers in Cluster 4; a specialized high-obesity `BRCA_Mutation` cohort in Cluster 6), achieving a mean Silhouette score of `0.075` reflective of continuous clinical risk gradients.
-  * **DBSCAN Grid Search:** Explored $\epsilon \in [3.0, 5.0]$ and `min_samples` $\in [3, 15]$ across cluster count, noise ratio, and Silhouette heatmaps (optimal configuration at $\epsilon=5.0, \text{min\_samples}=3$, yielding 2 macro-clusters and a non-noise Silhouette of `0.289`).
-
+  * **DBSCAN Grid Search:** Explored $\epsilon \in [3.0, 5.0]$ and `min_samples` $\in [3, 15]$ across cluster count, noise ratio, and Silhouette heatmaps (optimal configuration at $\epsilon = 5.0$ and `min_samples = 3`, yielding 2 macro-clusters and a non-noise Silhouette of `0.289`).
+    
 ### Part B — Google Stock Data (`GOOGL`): Time Series Forecasting (2004–2022)
 Historical analysis and forecasting across **4,431 trading days** (August 2004 – March 2022), including a dedicated study of volatility clustering, return kurtosis (`10.39`), and the V-shaped COVID-19 market crash and recovery in 2020.
 
