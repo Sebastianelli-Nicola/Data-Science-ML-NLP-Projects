@@ -25,7 +25,7 @@ Each module is self-contained in its dedicated directory along with source code,
 
 ## Module 1: Healthcare ML & Financial Time Series Forecasting
 
-** Technical Report:** [Progetto_1_ML_Forecasting.pdf](./01_ML_Classification_Clustering_Forecasting/Progetto_1_ML_Forecasting.pdf)
+Technical Report: [Progetto_1_ML_Forecasting.pdf](./01_ML_Classification_Clustering_Forecasting/Progetto_1_ML_Forecasting.pdf)
 
 ### Part A — Cancer Risk Factors: Multi-Class Classification & Clustering
 Analysis of a clinical and behavioral dataset (**2,000 patients, 21 attributes**) linking demographic, lifestyle (`Smoking`, `Alcohol_Use`, `BMI`, `Diet`, `Physical_Activity`, `Air_Pollution`), and genetic markers (`BRCA_Mutation`, `Family_History`, `H_Pylori`) to five cancer types (*Lung, Breast, Colon, Prostate, Skin*) and three ordinal risk levels (`Low`: 16.2%, `Medium`: 78.8%, `High`: 5.0%).
@@ -63,7 +63,7 @@ Historical analysis and forecasting across **4,431 trading days** (August 2004 �
 
 ## Module 2: Social Network Analysis (SNA) of Global Flight Routes
 
-** Technical Report:** [Progetto_2_SNA_Rotte_Aeree.pdf](./02_Social_Network_Analysis_Flight_Routes/Progetto_2_SNA_Rotte_Aeree.pdf)
+Technical Report: [Progetto_2_SNA_Rotte_Aeree.pdf](./02_Social_Network_Analysis_Flight_Routes/Progetto_2_SNA_Rotte_Aeree.pdf)
 
 Graph-theoretical modeling and structural analysis of the global aviation network built from **67,663 international flight routes** operated by **568 airlines** across **3,425 airports**.
 
@@ -87,7 +87,7 @@ Graph-theoretical modeling and structural analysis of the global aviation networ
 
 ## Module 3: ChronoBot — Historical Conversational AI (Rasa + Telegram)
 
-** Technical Report:** [Progetto_3_ChronoBot_Rasa.pdf](./03_ChronoBot_Rasa_Conversational_AI/Progetto_3_ChronoBot_Rasa.pdf)
+Technical Report: [Progetto_3_ChronoBot_Rasa.pdf](./03_ChronoBot_Rasa_Conversational_AI/Progetto_3_ChronoBot_Rasa.pdf)
 
 An interactive educational chatbot built with the open-source **Rasa Framework (Rasa NLU + Rasa Core)** and deployed on **Telegram** via **Ngrok** webhooks, allowing users to converse in first person with **7 iconic historical figures**: *Julius Caesar, Cleopatra, Leonardo da Vinci, Napoleon Bonaparte, Pythagoras, Marie Curie,* and *Albert Einstein*.
 
@@ -101,7 +101,7 @@ An interactive educational chatbot built with the open-source **Rasa Framework (
 
 ## Module 4: NLP on Women's E-Commerce Clothing Reviews
 
-** Technical Report:** [Progetto_4_NLP_Ecommerce.pdf](./04_NLP_Ecommerce_Reviews/Progetto_4_NLP_Ecommerce.pdf)
+Technical Report: [Progetto_4_NLP_Ecommerce.pdf](./04_NLP_Ecommerce_Reviews/Progetto_4_NLP_Ecommerce.pdf)
 
 End-to-end **Natural Language Processing** pipeline analyzing **23,486 customer reviews** across 10 attributes from a women's clothing e-commerce platform.
 
@@ -119,7 +119,7 @@ End-to-end **Natural Language Processing** pipeline analyzing **23,486 customer 
 
 ## Module 5: Prompt Engineering — Generative BI & Epidemic Simulator
 
-** Technical Report:** [Progetto_5_Prompt_Engineering.pdf](./05_Prompt_Engineering_GenAI/Progetto_5_Prompt_Engineering.pdf)
+Technical Report: [Progetto_5_Prompt_Engineering.pdf](./05_Prompt_Engineering_GenAI/Progetto_5_Prompt_Engineering.pdf)
 
 An experimental study on **Iterative Prompt Engineering** across visual and code-generation Foundation Models, structured into two applied use cases:
 
